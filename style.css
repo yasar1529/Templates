@@ -1,13 +1,17 @@
 body {
   padding: 0;
   margin: 0;
+  color: #777;
+  line-height: 1.8;
 }
 .img {
   background-image: url(/nature-sky-sunset-man-1600w.jpg);
   width: 100vw;
   height: 400px;
   background-size: cover;
+  position: relative;
   /* background-repeat: no-repeat; */
+  opacity: 0.75;
 }
 .nav-bar {
   display: flex;
@@ -35,4 +39,30 @@ a:hover {
 .search:hover {
   background-color: red;
   color: white;
+}
+.main-text{
+  position: absolute;
+  left: 523.5px;
+  top: 186.5px;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  letter-spacing: 10px;
+  font-size: 20px;
+}
+.about h3{
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 400px;
+  margin: 10px 0;
+  font-size: 24px;
+}
+.about-center-text{
+  text-align: center;
+}
+.about{
+  padding: 64px 16px 64px 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0px 185px;
 }
