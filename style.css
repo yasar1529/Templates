@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.img {
+  background-image: url(/nature-sky-sunset-man-1600w.jpg);
+  width: 100vw;
+  height: 400px;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+.nav-bar {
+  display: flex;
+}
+a:link {
+  color: #000;
+}
+a:visited {
+  color: #000;
+}
+div a {
+  text-decoration: none;
+  padding: 8px 16px;
+  margin-top: 0;
+}
+.search {
+  margin-left: auto;
+}
+svg {
+  margin: 0 4px 5px 0;
+}
+a:hover {
+  background-color: #ccc;
+}
+.search:hover {
+  background-color: red;
+  color: white;
+}
