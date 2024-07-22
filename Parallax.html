@@ -16,7 +16,7 @@
     ></script>
   </head>
   <body>
-    <div class="head-template">
+    <div id="Home" class="head-template">
       <div class="img">
         <div class="nav-bar">
           <a href="#Home" class="Home"><i class="fa-solid fa-house"></i>HOME</a>
@@ -44,7 +44,7 @@
         </div>
       </div>
     </div>
-    <div class="about">
+    <div id="About" class="about">
       <h3>ABOUT ME</h3>
       <p class="about-center-text"><em>I love photography</em></p>
       <p>
@@ -143,7 +143,7 @@
         <span class="second-img-text">PORTFOLIO</span>
       </div>
     </div>
-    <div class="portfolio-gallery">
+    <div id="Portfolio" class="portfolio-gallery">
       <h3 class="gallery-head">MY WORK</h3>
       <p class="gallery-text">
         <em>
@@ -237,7 +237,7 @@
       <p class="work-contact-text">
         <em> I'd love your feedback! </em>
       </p>
-      <div class="contact-main">
+      <div id="Contact" class="contact-main">
         <div class="map-img">
           <img
             src="./images/map.jpg"
@@ -272,7 +272,14 @@
                 <input type="text" placeholder="Email" required />
               </div>
             </div>
-            <input type="text" class="Message" placeholder="Message" required />
+            <input
+              type="text"
+              class="Message"
+              id="Message"
+              placeholder="Message"
+              style="margin-top: 10px"
+              required
+            />
             <button class="SEND-MESSAGE" type="submit">
               <i class="fa fa-paper-plane"></i>
               SEND MESSAGE
@@ -281,5 +288,20 @@
         </div>
       </div>
     </div>
+    <footer class="main-footer">
+      <a href="Home" class="go-to-home">
+        <i class="fa fa-arrow-up"></i>
+        To the top
+      </a>
+      <div class="icons">
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-snapchat"></i>
+        <i class="fa fa-pinterest-p"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Powered by <a href="#">Yasar</a></p>
+    </footer>
   </body>
 </html>

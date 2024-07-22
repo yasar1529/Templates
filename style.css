@@ -249,10 +249,57 @@ a:hover {
 }
 .contact-name {
   display: flex;
-  justify-content: space-between;
-  /* padding: 8px; */
+  gap: 20px;
+}
+.contact-name input {
+  width: 210px;
 }
 .contact-input-main input {
-  padding: 8px;
-  width: 100%;
+  padding: 12px;
+}
+#Message {
+  width: 470px;
+}
+.SEND-MESSAGE {
+  float: right;
+  margin: 20px 100px 0px 0px;
+  padding: 12px 8px 9px 8px;
+  width: 170px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+}
+.SEND-MESSAGE:hover {
+  color: #000;
+  background-color: #ccc;
+}
+.main-footer {
+  padding: 64px 0px;
+  text-align: center;
+  background-color: #000;
+  color: #fff !important;
+  opacity: 0.6;
+}
+footer a {
+  text-decoration: none;
+  color: #fff !important;
+}
+.icons {
+  margin-bottom: 16px;
+  margin-top: 30px;
+  font-size: x-large;
+}
+.icons i:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 5px #ccc);
+}
+.go-to-home {
+  background-color: #f1f1f1;
+  color: #000 !important;
+  padding: 10px 20px;
+}
+.main-footer:hover {
+  opacity: 1;
 }
