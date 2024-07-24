@@ -303,3 +303,61 @@ footer a {
 .main-footer:hover {
   opacity: 1;
 }
+@media screen and (max-width: 1100px) {
+  #Home a {
+    display: none;
+  }
+  .Home {
+    display: inline !important;
+  }
+  .img {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+  #About {
+    margin: 0;
+    width: 92%;
+  }
+  div .main-container {
+    display: block;
+    padding: 0;
+  }
+  div .container-left {
+    width: auto;
+  }
+  .container-right p {
+    display: none;
+  }
+  div.analysis-chart {
+    display: block;
+  }
+  #Portfolio {
+    margin: 0;
+    width: 92%;
+  }
+  div .gallery-top {
+    display: inline-block;
+    margin: 0px 60px;
+  }
+  div.gallery-bottom {
+    display: inline-block;
+    margin: 0px 60px;
+  }
+  div.work-contact-main {
+    margin: 0;
+    width: 92%;
+  }
+  #Contact {
+    display: block;
+    padding: 32px 20px;
+  }
+  .contact-name {
+    display: block;
+  }
+  .contact-name input {
+    width: 220px;
+  }
+  #Message {
+    width: 220px;
+  }
+}
