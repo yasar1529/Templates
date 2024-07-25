@@ -345,11 +345,13 @@ footer a {
   }
   div.work-contact-main {
     margin: 0;
+    padding: 64px 10px;
     width: 92%;
+    text-align: center;
   }
   #Contact {
     display: block;
-    padding: 32px 20px;
+    padding: 32px 0px;
   }
   .contact-name {
     display: block;
@@ -357,7 +359,11 @@ footer a {
   .contact-name input {
     width: 220px;
   }
+  div .email {
+    margin-top: 5px;
+  }
   #Message {
     width: 220px;
+    margin-top: 15px !important;
   }
 }
