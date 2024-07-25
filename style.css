@@ -168,11 +168,6 @@ a:hover {
   opacity: 0.6;
   cursor: pointer;
 }
-.gallery-bottom {
-  display: flex;
-  padding: 0px 8px;
-  margin: 16px 0;
-}
 .loading-button-main {
   text-align: center;
 }
@@ -336,12 +331,10 @@ footer a {
     width: 92%;
   }
   div .gallery-top {
-    display: inline-block;
-    margin: 0px 60px;
-  }
-  div.gallery-bottom {
-    display: inline-block;
-    margin: 0px 60px;
+    margin: 0px;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
   }
   div.work-contact-main {
     margin: 0;
